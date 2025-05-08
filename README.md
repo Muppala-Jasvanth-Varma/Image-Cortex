@@ -26,7 +26,7 @@ image-cortex/
 
 ---
 
-## 🛠️ Installation
+**## 🛠️ Installation
 
 Install the required Python packages:
 
@@ -38,54 +38,59 @@ opencv-python
 Pillow
 
 And install with:
+
 pip install -r requirements.txt
 
 
-📷 Usage
-1. Add Your Image
-Replace or rename your image as input.jpg, or modify the image path in the script:
+**📷 Usage
 
-image_path = r"W:\Computer vision\proj\input.jpg"  # Change as needed
+ 1. Add Your Image
+   
+   Replace or rename your image as input.jpg, or modify the image path in the script:
+
+   image_path = r"W:\Computer vision\proj\input.jpg"  # Change as needed
 
 2. Set Your Query
-Set the object you want to search for in the image:
+   Set the object you want to search for in the image:
 
-query = "cat"  # Change to any COCO object like "dog", "car", etc.
+   query = "cat"  # Change to any COCO object like "dog", "car", etc.
 
 3. Run the Script
 
-python image_cortex.py
-🧪 Sample Output
-✅ Console Output:
+   python image_cortex.py
+   🧪 Sample Output
 
-Matched Objects:
+   Matched Objects:
 - cat (confidence: 0.89)
 - cat (confidence: 0.76)
 
-🖼️ Image Output:
-Bounding boxes are drawn for all detected objects. Query-matched objects are highlighted more distinctly.
+**🖼️ Image Output:
 
-🎯 COCO Labels (Examples)
-Some of the 91 COCO labels you can query include:
+     Bounding boxes are drawn for all detected objects. Query-matched objects are highlighted more distinctly.
 
-person, car, bicycle, dog, cat, chair, laptop, bottle, cup, book, etc.
+**🎯 COCO Labels (Examples):
 
-See the full list in the COCO_LABELS array inside the script.
+    Some of the 91 COCO labels you can query include:
+    
+    person, car, bicycle, dog, cat, chair, laptop, bottle, cup, book, etc.
+    
+    See the full list in the COCO_LABELS array inside the script.
+    
+** 🔮 Future Improvements
 
-🔮 Future Improvements
- Real-time webcam support.
+     Real-time webcam support.
+    
+     Save results as JSON/CSV.
+    
+     Save annotated image output.
+    
+     Add GUI using Gradio or Streamlit.
+    
+     Use advanced models like YOLOv8 or DETR.
 
- Save results as JSON/CSV.
+** 🤝 Contributing
+     Contributions are welcome! Feel free to fork this repo, create a new branch, and submit a pull request with improvements or new features.
 
- Save annotated image output.
-
- Add GUI using Gradio or Streamlit.
-
- Use advanced models like YOLOv8 or DETR.
-
- 🤝 Contributing
-Contributions are welcome! Feel free to fork this repo, create a new branch, and submit a pull request with improvements or new features.
-
-👨‍💻 Author
-Jasvanth Varma Muppala
-Engineer | ML Enthusiast.
+**👨‍💻 Author
+     Jasvanth Varma Muppala
+     Engineer | ML Enthusiast.
